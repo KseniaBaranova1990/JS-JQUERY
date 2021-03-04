@@ -1,0 +1,58 @@
+body {
+  margin: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+h1 {
+  text-align: center;
+  color: #000;
+  font-size: 38px;
+  font-weight: 100;
+  font-family: "Oi", cursive;
+}
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  width: 1250px;
+  height: 650px;
+  background-image: url("https://i.ytimg.com/vi/IOlD3M97Z3g/maxresdefault.jpg");
+}
+#greeting {
+  font-size: 24px;
+}
+#content {
+  position: relative;
+  border: 3px solid black;
+  margin: 0 auto;
+  width: 700px;
+  height: 330px;
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 30px;
+  width: 100%;
+  text-align: left;
+  font-style: italic;
+  td {
+    padding: 10px;
+    width: 50%;
+  }
+}
+button {
+  position: absolute;
+  right: 30px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #e56366;
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
